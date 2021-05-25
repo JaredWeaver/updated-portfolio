@@ -1,48 +1,42 @@
 import React from 'react';
 import styled from 'styled-components';
 
-
 const NavContainer = styled.nav`
   display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
   flex-direction: row;
   background: transparent;
   width: 100%;
   position: fixed;
   padding: 10px;
-  
-`;
-const NavHeader = styled.p`
-font-size: 2rem;
-margin: 0;
-  padding: 0;
 `;
 
 const NavListGroup = styled.ul`
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+  flex-direction: row;
   list-style-type: none;
   margin: 0;
   padding: 0;
-  display: flex;
-  font-size: 1.5em;
+  font-size: 1.3em;
 `;
 
 const NavListItem = styled.li`
+  justify-content: center;
+  align-items: center;
   cursor: pointer;
   padding: 0.5rem;
   flex: auto;
-  text-align: center;
 `;
 
 const NavBar = () => {
   return (
     <>
       <NavContainer>
-        <NavHeader>Jared Weaver
-        </NavHeader>
         <NavListGroup>
           <NavListItem>Projects</NavListItem>
-          <NavListItem>Bio</NavListItem>
           <NavListItem>Contact</NavListItem>
           <NavListItem>Resume</NavListItem>
           <NavListItem>Github</NavListItem>
