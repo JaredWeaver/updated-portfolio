@@ -15,7 +15,7 @@ const ToggleBtn = styled.button`
 const Toggle = ({ theme, toggleTheme }) => {
   return (
     <div>
-      <ToggleBtn onClick={toggleTheme}>Switch Theme</ToggleBtn>
+      <ToggleBtn theme={theme} toggleTheme={theme}>Switch Theme</ToggleBtn>
     </div>
   );
 };

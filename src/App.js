@@ -5,6 +5,7 @@ import { useDarkMode } from './components/UseDarkMode';
 import { GlobalStyles } from './components/GlobalStyles';
 import { lightTheme, darkTheme } from './components/Themes';
 import Toggle from './components/Toggle';
+import Navbar from './components/NavBar'
 
 const App = () => {
   const [theme, themeToggler] = useDarkMode('light');
@@ -17,7 +18,8 @@ const App = () => {
       <>
         <GlobalStyles />
         <div>
-          <Toggle theme={theme} toggleTheme={themeToggler} />
+          <Navbar />
+          {/* <Toggle theme={theme} toggleTheme={themeToggler} /> */}
         </div>
       </>
     </ThemeProvider>
