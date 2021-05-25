@@ -1,5 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
+import Resume from '../../assets/JaredWeaverResume.pdf'
+import { SiLinkedin,SiGithub } from 'react-icons/si';
+
 
 const NavContainer = styled.nav`
   display: flex;
@@ -14,8 +17,6 @@ const NavContainer = styled.nav`
 
 const NavListGroup = styled.ul`
   display: flex;
-  /* justify-content: center;
-  align-items: center; */
   flex-direction: row;
   list-style-type: none;
   margin: 0;
@@ -29,6 +30,10 @@ const NavListItem = styled.li`
   cursor: pointer;
   padding: 0.5rem;
   flex: auto;
+  a{
+    text-decoration: none;
+    color: white;
+  }
 `;
 
 const NavBar = () => {
@@ -38,9 +43,9 @@ const NavBar = () => {
         <NavListGroup>
           <NavListItem>Projects</NavListItem>
           <NavListItem>Contact</NavListItem>
-          <NavListItem>Resume</NavListItem>
-          <NavListItem>Github</NavListItem>
-          <NavListItem>LinkedIn</NavListItem>
+          <NavListItem><a href={Resume} target='blank'>Resume</a></NavListItem>
+          <NavListItem><a href={'https://github.com/JaredWeaver'} target='blank'><SiGithub /></a></NavListItem>
+          <NavListItem><a href={'https://www.linkedin.com/in/jaredweaver2/'} target='blank'><SiLinkedin/></a></NavListItem>
         </NavListGroup>
       </NavContainer>
     </>
