@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-import Toggle from '../Toggle';
 
 
 const NavContainer = styled.nav`
@@ -35,7 +34,7 @@ const NavListItem = styled.li`
   text-align: center;
 `;
 
-const NavBar = (theme, toggleTheme) => {
+const NavBar = () => {
   return (
     <>
       <NavContainer>
