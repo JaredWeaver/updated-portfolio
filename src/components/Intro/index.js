@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import TypeWriter from 'typewriter-effect';
-import Image from '../../assets/KikiJared.jpg';
+// import Image from '../../assets/KikiJared.jpg';
 
 const IntroContainer = styled.div`
   display: flex;
