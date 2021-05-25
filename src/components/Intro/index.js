@@ -12,8 +12,6 @@ const IntroContainer = styled.div`
   text-align: center;
 `;
 
-const IntroHead = styled.h1``;
-
 const Intro = () => {
   return (
     <>
