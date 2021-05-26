@@ -12,7 +12,6 @@ import { SiMysql } from 'react-icons/si';
 import { SiTailwindcss } from 'react-icons/si';
 import { SiHtml5 } from 'react-icons/si';
 
-
 const ProjectsContainer = styled.section`
   display: flex;
   justify-content: center;
@@ -46,15 +45,13 @@ const Header = styled.nav`
   font-size: 2em;
   width: 100%;
   border-bottom: 1px solid white;
-  a{
-      text-decoration: none;
-      color: white;
-      font-size: 16px;
-      
-
+  a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
   }
   a:hover {
-      color: gray;
+    color: gray;
   }
 `;
 
@@ -69,7 +66,7 @@ const BodyWrapper = styled.div`
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
-height: 50vh;
+  height: 50vh;
   width: 100%;
   border-top: 1px solid white;
   h2 {
@@ -81,7 +78,6 @@ height: 50vh;
     justify-content: center;
     list-style-type: none;
   }
-  
 `;
 
 const TechWrapper = styled.div`
@@ -92,8 +88,8 @@ const TechWrapper = styled.div`
   /* padding: 2em; */
   width: 100%;
   margin-bottom: 1em;
-  svg{
-      font-size: 24px;
+  svg {
+    font-size: 24px;
   }
 `;
 
@@ -102,17 +98,23 @@ const Projects = () => {
     <div>
       <ProjectsContainer>
         <ProjectDiv>
-          <Header>mentor.me 
-          <a href={"https://github.com/freejonm/mentor.me"} target={"_blank"}rel={"noreferrer"}>Github Repo</a>
+          <Header>
+            mentor.me
+            <a
+              href={'https://github.com/freejonm/mentor.me'}
+              target={'_blank'}
+              rel={'noreferrer'}
+            >
+              Github Repo
+            </a>
           </Header>
           <Screenshot src={mentorImg} />
           <BodyWrapper>
             <h2>
               A MERN app designed to match recent coding bootcamp graduates with
               mentors to help them transition and excel in a web developement
-              career. 
+              career.
             </h2>
-           
           </BodyWrapper>
           <TechWrapper>
             <SiReact /> <SiMongodb /> <SiNodeDotJs /> <DiSass />{' '}
@@ -120,13 +122,28 @@ const Projects = () => {
           </TechWrapper>
         </ProjectDiv>
         <ProjectDiv>
-          <Header>Subscription Tracker <a href={"https://github.com/freejonm/mentor.me"} target={"_blank"}rel={"noreferrer"}>Github Repo</a></Header>
+          <Header>
+            Subscription Tracker{' '}
+            <a
+              href={'https://github.com/freejonm/mentor.me'}
+              target={'_blank'}
+              rel={'noreferrer'}
+            >
+              Github Repo
+            </a>
+          </Header>
           <Screenshot src={subtrkr} />
-          <BodyWrapper><h2>
-          A full-stack app that enables users to add recurring subscriptions and view them all on one calendar.</h2>
+          <BodyWrapper>
+            <h2>
+              A full-stack app that enables users to add recurring subscriptions
+              and view them all on one calendar.
+            </h2>
           </BodyWrapper>
           <TechWrapper>
-           <SiNodeDotJs /><SiTailwindcss /><SiJavascript/><SiMysql/> <SiHtml5/>
+            <SiNodeDotJs />
+            <SiTailwindcss />
+            <SiJavascript />
+            <SiMysql /> <SiHtml5 />
           </TechWrapper>
         </ProjectDiv>
       </ProjectsContainer>

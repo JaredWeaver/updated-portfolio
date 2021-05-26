@@ -27,4 +27,13 @@ export const GlobalStyles = createGlobalStyle`
     -1px 1px 0 #000,
     1px 1px 0 #000;
   }
+
+  .email{
+    
+      text-decoration: none;
+      font-size: 50px;
+      color:white;
+  
+
+  }
   `;
