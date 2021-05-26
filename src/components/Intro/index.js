@@ -17,13 +17,13 @@ const IntroContainer = styled.div`
 const IntroBioContainer = styled.section`
   display: flex;
   margin-top: 1em;
-  width: 50%;
+  width: 66.6%;
   background:transparent;
   background-size: cover;
   overflow: hidden;
   border-radius: 5%;
   p{
-    font-size: 22px;
+    font-size: 1em;
   }
 `;
 
@@ -41,7 +41,7 @@ const Intro = () => {
           }}
         />
         <IntroBioContainer>
-          <p> Before switching careers into web development, I was an acclaimed Operations Manager for five years with a proven track record managing some of the biggest events in downtown Raleigh, North Carolina. Now I am a developer with that is addicted to learning best practices and new technologies to develop innovative user experiences.</p>
+          <p> Developer that is addicted to learning best practices and new technologies to craft innovative user experiences.</p>
         </IntroBioContainer>
       </IntroContainer>
     </>

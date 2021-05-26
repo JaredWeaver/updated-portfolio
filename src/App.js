@@ -3,6 +3,7 @@ import React from 'react';
 import { GlobalStyles } from './components/GlobalStyles';
 import Navbar from './components/NavBar';
 import Intro from './components/Intro';
+import Projects from './components/Projects';
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <div>
         <Navbar />
         <Intro/>
+        <Projects/>
       </div>
     </>
 
