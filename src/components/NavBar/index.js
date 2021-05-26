@@ -10,6 +10,8 @@ const NavContainer = styled.nav`
   align-items: center;
   flex-direction: row;
   background: transparent;
+  background-color: #383e42;
+  opacity: .9;
   width: 100%;
   position: fixed;
   padding: 10px;
