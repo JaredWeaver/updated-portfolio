@@ -16,18 +16,37 @@ const NavContainer = styled.nav`
   width: 100%;
   position: fixed;
   padding: 10px;
+  @media screen and (max-width: 1200px) {
+    width: 100%;
+
+  }
+  @media screen and (max-width: 800px) {
+    width: auto;
+    
+
+  }
+  @media screen and (max-width: 600px) {
+width: auto;
+
+  }
+  @media screen and (max-width: 450px) {
+    width: auto;
+  }
 `;
 
 const NavListGroup = styled.ul`
   display: flex;
   flex-direction: row;
+  justify-content: center;
   list-style-type: none;
   margin: 0;
   padding: 0;
-  font-size: 1.3em;
+  font-size: 1.3rem;
+  
 `;
 
 const NavListItem = styled.li`
+display: flex;
   justify-content: center;
   align-items: center;
   cursor: pointer;

@@ -14,6 +14,25 @@ export const GlobalStyles = createGlobalStyle`
     1px -1px 0 #000,
     -1px 1px 0 #000,
     1px 1px 0 #000;
+    @media screen and (max-width: 1200px) {
+}
+@media screen and (max-width: 800px) {
+  padding: 0;
+  margin-left: 0;
+
+}
+@media screen and (max-width: 600px) {
+  padding: 0;
+  margin-left: 0;
+
+
+}
+@media screen and (max-width: 450px) {
+  padding: 0;
+  margin-left: 0;
+
+  
+}
     
   }
 
