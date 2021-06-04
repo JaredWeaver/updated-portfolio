@@ -7,7 +7,7 @@ export const GlobalStyles = createGlobalStyle`
     background: linear-gradient(0deg, #2f0909 0% , #393D47 94%) fixed no-repeat;
     font-family: 'Space Grotesk', sans-serif;
     margin: 0;
-    padding: 0px 20px;
+    padding: 0px 10px;
     color: white;
     text-shadow:
    -1px -1px 0 #000,  
@@ -17,20 +17,12 @@ export const GlobalStyles = createGlobalStyle`
     @media screen and (max-width: 1200px) {
 }
 @media screen and (max-width: 800px) {
-  padding: 0;
-  margin-left: 0;
 
 }
 @media screen and (max-width: 600px) {
-  padding: 0;
-  margin-left: 0;
-
 
 }
 @media screen and (max-width: 450px) {
-  padding: 0;
-  margin-left: 0;
-
   
 }
     
@@ -39,7 +31,7 @@ export const GlobalStyles = createGlobalStyle`
   .Typewriter {
     display: flex;
     justify-content: center;
-    padding:4px;
+    padding: 2px;
     text-shadow:
    -1px -1px 0 #000,  
     1px -1px 0 #000,
@@ -50,9 +42,8 @@ export const GlobalStyles = createGlobalStyle`
   .email{
     
       text-decoration: none;
-      font-size: 50px;
+      font-size: 10px;
       color:white;
-  
 
   }
   `;

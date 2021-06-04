@@ -20,7 +20,24 @@ const ProjectsContainer = styled.section`
   flex-flow: row wrap;
   width: 100%;
   padding-top: 1em;
-  margin: 1em;
+  margin: 10em;
+  @media screen and (max-width: 1200px) {
+    width: 100%;
+    margin: 2px;
+
+  }
+  @media screen and (max-width: 800px) {
+    width: auto;
+    
+
+  }
+  @media screen and (max-width: 600px) {
+width: auto;
+
+  }
+  @media screen and (max-width: 450px) {
+    width: auto;
+  }
 `;
 
 const ProjectDiv = styled.section`
@@ -35,6 +52,23 @@ const ProjectDiv = styled.section`
   background-color: #2f0909;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
     rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  @media screen and (max-width: 1200px) {
+    width: 80vw;
+    height: 40em;
+    margin: 0;
+    object-fit: cover;
+
+  }
+  @media screen and (max-width: 800px) {
+    width: 100%;
+    
+
+  }
+  @media screen and (max-width: 600px) {
+
+  }
+  @media screen and (max-width: 450px) {
+  }
 `;
 
 const Header = styled.nav`

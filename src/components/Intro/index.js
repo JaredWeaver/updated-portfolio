@@ -6,9 +6,9 @@ import BackImage from '../../assets/walkaway.jpg';
 
 const TypewriteContainer = styled.div`
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   flex-direction: row;
-  padding-top: 20%;
+  padding-top: 10%;
   font-size: 3em;
   padding-bottom: 0;
   align-items: center;
@@ -17,13 +17,16 @@ const TypewriteContainer = styled.div`
   @media screen and (max-width: 1200px) {
   }
   @media screen and (max-width: 800px) {
+    flex-direction: column;
   }
   @media screen and (max-width: 600px) {
+    flex-direction: column;
   }
   @media screen and (max-width: 450px) {
     flex-direction: column;
     font-size: 20px;
     width: 100%;
+    padding-top: 20%;
   }
 `;
 
