@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import Resume from '../../assets/JaredWeaverResume.pdf'
 import { SiLinkedin,SiGithub } from 'react-icons/si';
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
 
 const NavContainer = styled.nav`
   display: flex;
@@ -17,6 +17,7 @@ const NavContainer = styled.nav`
   opacity: .97;
   width: 100%;
   position: fixed;
+  z-index: 1000;
   padding: 8px;
   @media screen and (max-width: 1200px) {
     /* width: 100%; */
