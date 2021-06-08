@@ -7,11 +7,15 @@ import BackImage from '../../assets/walkaway.jpg';
 const TypewriteContainer = styled.div`
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-direction: row;
   padding-top: 10%;
   font-size: 3em;
   padding-bottom: 0;
   align-items: center;
+  object-fit: contain;
+  max-width: 1500px;
+
   /* margin: 4px; */
 
   @media screen and (max-width: 1200px) {
@@ -38,7 +42,7 @@ const TopIntroContainer = styled.div`
   font-size: 3em;
   padding-bottom: 0;
   align-items: center;
-  margin: 4px;
+  /* margin: 4px; */
   @media screen and (max-width: 1200px) {
     justify-content: center;
     flex-direction: column;
@@ -49,13 +53,13 @@ const TopIntroContainer = styled.div`
     justify-content: center;
     flex-direction: column;
     font-size: 1.5rem;
-    margin: 0;
+    margin: 0 auto;
   }
   @media screen and (max-width: 600px) {
     justify-content: center;
     flex-direction: column;
     font-size: 1rem;
-    margin: 0;
+    margin: 0 auto;
   }
   @media screen and (max-width: 450px) {
     justify-content: center;

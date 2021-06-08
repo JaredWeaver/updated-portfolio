@@ -16,59 +16,43 @@ const ProjectsContainer = styled.section`
   display: flex;
   justify-content: center;
   flex-direction: row;
-  flex-wrap: wrap;
-  flex-flow: row wrap;
-  width: 100%;
+  max-width: 1500px;
   padding-top: 1em;
-  margin: 10em;
+  margin: 0 auto;
   @media screen and (max-width: 1200px) {
     width: 100%;
     margin: 2px;
-
+    
   }
   @media screen and (max-width: 800px) {
     width: auto;
-    
-
+    flex-direction: column;
   }
   @media screen and (max-width: 600px) {
-width: auto;
-
+    width: auto;
+    flex-direction: column;
   }
   @media screen and (max-width: 450px) {
     width: auto;
+    flex-direction: column;
   }
 `;
 
 const ProjectDiv = styled.section`
   display: flex;
   flex-direction: column;
+  justify-content: flex-end;
   border: 3px solid white;
   border-radius: 5%;
-  margin: 1em;
-  height: 50em;
+  z-index: 1;
+  margin: 10px;
+  padding: 20px;
+  max-height: 800px;
+  min-width: 500px;
   background: linear-gradient(0deg, #393d47 0%, #2f0909 94%) fixed no-repeat;
-  width: 45%;
   background-color: #2f0909;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
     rgba(0, 0, 0, 0.22) 0px 15px 12px;
-  @media screen and (max-width: 1200px) {
-    width: 80vw;
-    height: 40em;
-    margin: 0;
-    object-fit: cover;
-
-  }
-  @media screen and (max-width: 800px) {
-    width: 100%;
-    
-
-  }
-  @media screen and (max-width: 600px) {
-
-  }
-  @media screen and (max-width: 450px) {
-  }
 `;
 
 const Header = styled.nav`
@@ -78,6 +62,7 @@ const Header = styled.nav`
   align-items: center;
   font-size: 2em;
   width: 100%;
+  object-fit: cover;
   border-bottom: 1px solid white;
   a {
     text-decoration: none;
@@ -91,10 +76,12 @@ const Header = styled.nav`
 
 const Screenshot = styled.img`
   display: flex;
-  margin: 2em;
+  max-height: 400px;
+  width: 100%;
   justify-content: center;
   align-items: center;
   object-fit: contain;
+  margin: 20px 0;
 `;
 const BodyWrapper = styled.div`
   display: flex;
@@ -131,7 +118,7 @@ const Projects = () => {
   return (
     <div>
       <ProjectsContainer>
-        <ProjectDiv>
+        <ProjectDiv id="projects">
           <Header>
             mentor.me
             <a

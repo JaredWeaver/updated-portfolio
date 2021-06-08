@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import Resume from '../../assets/JaredWeaverResume.pdf'
 import { SiLinkedin,SiGithub } from 'react-icons/si';
-
+import { Link, animateScroll as scroll } from "react-scroll";
 
 const NavContainer = styled.nav`
   display: flex;
@@ -19,23 +19,23 @@ const NavContainer = styled.nav`
   position: fixed;
   padding: 8px;
   @media screen and (max-width: 1200px) {
-    width: 100%;
-    padding: 8px;
+    /* width: 100%; */
+    /* padding: 8px; */
   }
   @media screen and (max-width: 800px) {
-    width: 100%;
-    padding: 6px;
+    /* width: 100%; */
+    /* padding: 6px; */
 
   }
   @media screen and (max-width: 600px) {
-width: 100%;
-padding: 4px;
+/* width: 100%; */
+/* padding: 4px; */
 
   }
   @media screen and (max-width: 450px) {
-    width: 100%;
-    padding: 5px;
-    margin: 0;
+    /* width: 100%; */
+    /* padding: 5px; */
+    /* margin: 0; */
   }
 `;
 
@@ -69,8 +69,22 @@ const NavBar = () => {
     <>
       <NavContainer>
         <NavListGroup>
-          <NavListItem>Projects</NavListItem>
-          <NavListItem>Contact</NavListItem>
+          <NavListItem><Link
+    activeClass="active"
+    to="projects"
+    spy={true}
+    smooth={true}
+    offset={-70}
+    duration={500}
+>Projects</Link></NavListItem>
+          <NavListItem><Link
+    activeClass="active"
+    to="contact"
+    spy={true}
+    smooth={true}
+    offset={-70}
+    duration={500}
+>Contact</Link></NavListItem>
           <NavListItem><a href={Resume} target='blank'>Resume</a></NavListItem>
           <NavListItem><a href={'https://github.com/JaredWeaver'} target='blank'><SiGithub /></a></NavListItem>
           <NavListItem><a href={'https://www.linkedin.com/in/jaredweaver2/'} target='blank'><SiLinkedin/></a></NavListItem>

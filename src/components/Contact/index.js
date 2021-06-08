@@ -5,11 +5,8 @@ const ContactContainer = styled.section`
   display: flex;
   justify-content: center;
   flex-direction: row;
-  flex-wrap: wrap;
-  flex-flow: row wrap;
   width: 100%;
-  padding-top: 6em;
-  margin: 1em;
+  font-size: 40px;
   text-decoration: none;
     
 
@@ -19,9 +16,9 @@ const ContactContainer = styled.section`
 const ContactInfo = () => {
     return (
         <div>
-            <ContactContainer>
+            <ContactContainer >
            
-           <a className={'email'}href={"mailto:jared.weaver2@gmail.com"} target={"_blank"} rel={"noreferrer"}>jared.weaver2@gmail.com</a>
+           <a id="contact" className={'email'}href={"mailto:jared.weaver2@gmail.com"} target={"_blank"} rel={"noreferrer"}>jared.weaver2@gmail.com</a>
            
 
            

@@ -6,7 +6,7 @@ export const GlobalStyles = createGlobalStyle`
     background-color: #090947;
     background: linear-gradient(0deg, #2f0909 0% , #393D47 94%) fixed no-repeat;
     font-family: 'Space Grotesk', sans-serif;
-    margin: 0;
+    margin: 0 auto;
     padding: 0px 10px;
     color: white;
     text-shadow:
@@ -23,7 +23,9 @@ export const GlobalStyles = createGlobalStyle`
 
 }
 @media screen and (max-width: 450px) {
-  
+  display: flex;
+  justify-content: center;
+  flex: column;
 }
     
   }
@@ -38,12 +40,11 @@ export const GlobalStyles = createGlobalStyle`
     -1px 1px 0 #000,
     1px 1px 0 #000;
   }
-
   .email{
     
       text-decoration: none;
-      font-size: 10px;
+      font-size: 40px;
       color:white;
-
+      
   }
-  `;
+      `;
