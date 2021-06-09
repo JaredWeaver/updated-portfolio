@@ -17,7 +17,7 @@ const NavContainer = styled.nav`
   opacity: .97;
   width: 100%;
   position: fixed;
-  z-index: 1000;
+  z-index: 10000;
   padding: 8px;
   @media screen and (max-width: 1200px) {
     /* width: 100%; */
@@ -37,6 +37,7 @@ const NavContainer = styled.nav`
     /* width: 100%; */
     /* padding: 5px; */
     /* margin: 0; */
+    
   }
 `;
 
@@ -49,6 +50,7 @@ const NavListGroup = styled.ul`
   margin: 0;
   padding: 0;
   font-size: 1.3rem;
+  
   
 `;
 

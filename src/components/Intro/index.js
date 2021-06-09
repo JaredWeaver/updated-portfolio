@@ -31,6 +31,7 @@ const TypewriteContainer = styled.div`
     font-size: 20px;
     width: 100%;
     padding-top: 20%;
+
   }
 `;
 
@@ -53,19 +54,19 @@ const TopIntroContainer = styled.div`
     justify-content: center;
     flex-direction: column;
     font-size: 1.5rem;
-    margin: 0 auto;
+    /* margin: 0 auto; */
   }
   @media screen and (max-width: 600px) {
     justify-content: center;
     flex-direction: column;
     font-size: 1rem;
-    margin: 0 auto;
+    /* margin: 0 auto; */
   }
   @media screen and (max-width: 450px) {
     justify-content: center;
     flex-direction: column;
     font-size: 1rem;
-  }
+margin-left: 160px  }
 `;
 
 const IntroContainer = styled.div`
@@ -84,6 +85,7 @@ const IntroContainer = styled.div`
   @media screen and (max-width: 600px) {
   }
   @media screen and (max-width: 450px) {
+    
   }
 `;
 
@@ -98,8 +100,6 @@ const IntroBioContainer = styled.section`
 
   width: 66.6%;
   background: transparent;
-  background-size: cover;
-  overflow: hidden;
   border-radius: 5%;
   p {
     font-size: 36px;
@@ -125,7 +125,7 @@ const IntroBioContainer = styled.section`
   @media screen and (max-width: 600px) {
   }
   @media screen and (max-width: 450px) {
-    width: 100%;
+    /* width: 100%; */
   }
 `;
 

@@ -26,6 +26,7 @@ export const GlobalStyles = createGlobalStyle`
   display: flex;
   justify-content: center;
   flex: column;
+  margin: 0;
 }
     
   }
@@ -44,7 +45,10 @@ export const GlobalStyles = createGlobalStyle`
     
       text-decoration: none;
       font-size: 40px;
-      color:white;
-      
-  }
-      `;
+      color: white;
+    @media screen and (max-width: 450px) {
+       font-size: 30px;
+      }
+    }
+
+    `;

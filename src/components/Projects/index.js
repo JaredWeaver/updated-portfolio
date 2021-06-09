@@ -25,16 +25,15 @@ const ProjectsContainer = styled.section`
     
   }
   @media screen and (max-width: 800px) {
-    width: auto;
     flex-direction: column;
   }
   @media screen and (max-width: 600px) {
-    width: auto;
     flex-direction: column;
   }
   @media screen and (max-width: 450px) {
-    width: auto;
     flex-direction: column;
+    margin: 0 20px;
+    padding: 0 10px;
   }
 `;
 
@@ -53,6 +52,10 @@ const ProjectDiv = styled.section`
   background-color: #2f0909;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
     rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    @media screen and (max-width: 450px) {
+    flex-direction: column;
+    margin-left: 100px;
+  }
 `;
 
 const Header = styled.nav`

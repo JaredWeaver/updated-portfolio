@@ -8,6 +8,9 @@ const ContactContainer = styled.section`
   width: 100%;
   font-size: 40px;
   text-decoration: none;
+  margin-top: 15%;
+  margin-left: 80px;
+  margin-bottom: 10%;
     
 
   `;
