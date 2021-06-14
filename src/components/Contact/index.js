@@ -1,16 +1,14 @@
 import React from 'react'
 import styled from 'styled-components';
 
-const ContactContainer = styled.section`
+const ContactContainer = styled.div`
   display: flex;
   justify-content: center;
-  flex-direction: row;
-  width: 100%;
+  flex-direction: column;
+  /* width: 100%; */
   font-size: 40px;
   text-decoration: none;
-  margin-top: 15%;
-  margin-left: 80px;
-  margin-bottom: 10%;
+  margin: 0 auto;
     
 
   `;

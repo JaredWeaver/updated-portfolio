@@ -12,16 +12,17 @@ import { SiMysql } from 'react-icons/si';
 import { SiTailwindcss } from 'react-icons/si';
 import { SiHtml5 } from 'react-icons/si';
 
-const ProjectsContainer = styled.section`
+const ProjectsContainer = styled.div`
   display: flex;
   justify-content: center;
   flex-direction: row;
-  max-width: 1500px;
-  padding-top: 1em;
+  /* max-width: 1500px; */
+  padding-top: 30px;
   margin: 0 auto;
+  margin-bottom: 50px;
   @media screen and (max-width: 1200px) {
     width: 100%;
-    margin: 2px;
+    /* margin: 2px; */
     
   }
   @media screen and (max-width: 800px) {
@@ -37,17 +38,19 @@ const ProjectsContainer = styled.section`
   }
 `;
 
-const ProjectDiv = styled.section`
+const ProjectDiv = styled.div`
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: center;
   border: 3px solid white;
   border-radius: 5%;
   z-index: 1;
-  margin: 10px;
-  padding: 20px;
+  margin: 0 auto;
+  padding: 0;
   max-height: 800px;
-  min-width: 500px;
+  margin-top: 20px;
+
+  width: auto;
   background: linear-gradient(0deg, #393d47 0%, #2f0909 94%) fixed no-repeat;
   background-color: #2f0909;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
@@ -55,7 +58,8 @@ const ProjectDiv = styled.section`
     @media screen and (max-width: 450px) {
     flex-direction: column;
     margin-left: 100px;
-  }
+    margin-top: 20px;
+    }
 `;
 
 const Header = styled.nav`
@@ -65,7 +69,6 @@ const Header = styled.nav`
   align-items: center;
   font-size: 2em;
   width: 100%;
-  object-fit: cover;
   border-bottom: 1px solid white;
   a {
     text-decoration: none;
@@ -79,7 +82,7 @@ const Header = styled.nav`
 
 const Screenshot = styled.img`
   display: flex;
-  max-height: 400px;
+  max-height: 800px;
   width: 100%;
   justify-content: center;
   align-items: center;
@@ -113,7 +116,7 @@ const TechWrapper = styled.div`
   width: 100%;
   margin-bottom: 1em;
   svg {
-    font-size: 24px;
+    font-size: 34px;
   }
 `;
 

@@ -14,7 +14,7 @@ const TypewriteContainer = styled.div`
   padding-bottom: 0;
   align-items: center;
   object-fit: contain;
-  max-width: 1500px;
+  /* max-width: 1500px; */
 
   /* margin: 4px; */
 
@@ -31,6 +31,7 @@ const TypewriteContainer = styled.div`
     font-size: 20px;
     width: 100%;
     padding-top: 20%;
+    
 
   }
 `;
@@ -66,7 +67,7 @@ const TopIntroContainer = styled.div`
     justify-content: center;
     flex-direction: column;
     font-size: 1rem;
-margin-left: 160px  }
+margin-left: 100px  }
 `;
 
 const IntroContainer = styled.div`
