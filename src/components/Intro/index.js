@@ -6,14 +6,14 @@ import BackImage from '../../assets/walkaway.jpg';
 
 const TypewriteContainer = styled.div`
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   flex-direction: row;
   padding-top: 10%;
   font-size: 3em;
   padding-bottom: 0;
   margin: 0 auto;
-  width: 100%;
+  width: 100vw;
   /* object-fit: contain; */
   /* max-width: 1500px; */
 
@@ -48,18 +48,19 @@ const TopIntroContainer = styled.div`
   align-items: center;
   margin: 0 auto;
   max-width:95vw;
-  /* margin: 4px; */
   @media screen and (max-width: 1200px) {
     justify-content: center;
-    flex-direction: column;
     font-size: 40px;
     margin: 0 auto;
   }
   @media screen and (max-width: 800px) {
+    flex-direction: column;
+
     font-size: 1.5rem;
   }
   @media screen and (max-width: 600px) {
     font-size: 1rem;
+    padding: 10px 50px;
   }
 `;
 
@@ -67,6 +68,7 @@ const IntroContainer = styled.div`
   display: flex;
   justify-content: center;
   flex-direction: column;
+  width: 100%;
   padding-top: 5%;
   font-size: 60px;
   padding-bottom: 0;
@@ -79,13 +81,17 @@ const IntroContainer = styled.div`
 const IntroPic = styled.img`
   border-radius: 5%;
   height: 50vh;
+  margin: 0 auto;
+  width: auto;
   /* margin: 5px; */
 `;
 
-const IntroBioContainer = styled.section`
+const IntroBioContainer = styled.div`
   display: flex;
+  justify-content: center;
 
-  width: 95%;
+
+  width: 100vw;
   background: transparent;
   border-radius: 5%;
   margin: 20px auto;
