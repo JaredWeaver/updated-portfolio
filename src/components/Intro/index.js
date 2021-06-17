@@ -14,28 +14,14 @@ const TypewriteContainer = styled.div`
   padding-bottom: 0;
   margin: 0 auto;
   width: 100vw;
-  /* object-fit: contain; */
-  /* max-width: 1500px; */
 
-  /* margin: 4px; */
-
-  /* @media screen and (max-width: 1200px) {
-  } */
   @media screen and (max-width: 800px) {
     flex-direction: column;
     font-size: 20px;
-    /* width: 100%; */
     padding-top: 20%;
-  }
-  /* @media screen and (max-width: 600px) {
-    flex-direction: column;
-  }
-  @media screen and (max-width: 450px) {
-    flex-direction: column;
-    */
     
+  }
 
-  /* } */
 `;
 
 const TopIntroContainer = styled.div`
@@ -47,9 +33,11 @@ const TopIntroContainer = styled.div`
   padding-bottom: 0;
   align-items: center;
   margin: 0 auto;
-  max-width:95vw;
+  padding: 5% 50px;
+  max-width: 95vw;
   @media screen and (max-width: 1200px) {
     justify-content: center;
+    flex-direction: column;
     font-size: 40px;
     margin: 0 auto;
   }
@@ -60,55 +48,40 @@ const TopIntroContainer = styled.div`
   }
   @media screen and (max-width: 600px) {
     font-size: 1rem;
-    padding: 10px 50px;
-  }
-`;
-
-const IntroContainer = styled.div`
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  width: 100%;
-  padding-top: 5%;
-  font-size: 60px;
-  padding-bottom: 0;
-  align-items: center;
-  text-align: center;
-  margin: 0 auto;
+    padding: 30px 50px;
   }
 `;
 
 const IntroPic = styled.img`
-  border-radius: 5%;
-  height: 50vh;
+  border-radius: 2%;
+  height: auto;
   margin: 0 auto;
-  width: auto;
+  object-fit: contain;
+  width: 100%;
+  max-width: 400px;
+  /* width: auto; */
   /* margin: 5px; */
 `;
 
 const IntroBioContainer = styled.div`
   display: flex;
-  justify-content: center;
-
-
-  width: 100vw;
+  justify-content: flex-start;
+  width: 85vw;
+  max-width: 400px;
   background: transparent;
   border-radius: 5%;
   margin: 20px auto;
   p {
-    font-size: 40px;
-    text-align: center;
+    font-size: 34px;
+    text-align: left;
     @media screen and (max-width: 1200px) {
-      font-size: 32px;
+      font-size: 30px;
     }
     @media screen and (max-width: 800px) {
-      font-size: 30px;
-    }
-    @media screen and (max-width: 600px) {
-      font-size: 30px;
+      font-size: 28px;
     }
     @media screen and (max-width: 450px) {
-      font-size: 24px;
+      font-size: 26px;
     }
   }
 `;
@@ -141,7 +114,6 @@ const Intro = () => {
         <IntroPic src={BackImage}></IntroPic>
       </TopIntroContainer>
 
-      <IntroContainer></IntroContainer>
     </>
   );
 };

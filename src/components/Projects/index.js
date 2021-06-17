@@ -17,25 +17,10 @@ const ProjectsContainer = styled.div`
   display: flex;
   justify-content: center;
   flex-direction: row;
-  max-width: 1500px;
-  padding-top: 30px;
+  max-width: 95vw;
   margin: 0 auto;
-  margin-bottom: 50px;
-  @media screen and (max-width: 1200px) {
-    width: 100%;
-    /* margin: 2px; */
-    
-  }
   @media screen and (max-width: 800px) {
     flex-direction: column;
-  }
-  @media screen and (max-width: 600px) {
-    flex-direction: column;
-  }
-  @media screen and (max-width: 450px) {
-    flex-direction: column;
-    margin: 0 20px;
-    padding: 0 10px;
   }
 `;
 
@@ -46,34 +31,29 @@ const ProjectDiv = styled.div`
   border: 3px solid white;
   border-radius: 5%;
   z-index: 1;
-  margin: 40px;
+  margin: 0 5px;
   padding: 40px;
-  max-height: 800px;
+  max-height: 500px;
   margin-top: 20px;
-
-  width: 100%;
+  width: 33.3%;
+  max-width: 60vw;
   background: linear-gradient(0deg, #393d47 0%, #2f0909 94%) fixed no-repeat;
   background-color: #2f0909;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
     rgba(0, 0, 0, 0.22) 0px 15px 12px;
     @media screen and (max-width: 450px) {
     flex-direction: column;
-    /* margin-left: 100px; */
-    margin-top: 20px;
     }
 `;
 
-const Header = styled.nav`
+const Header = styled.div`
   display: flex;
-  /* margin: 10px; */
   justify-content: space-evenly;
   align-items: center;
   font-size: 24px;
-  max-height:800px;
-  object-fit: contain;
+  max-height:300px;
   width: 100%;
   border-bottom: 1px solid white;
-  /* padding: 0 20px; */
   a {
     text-decoration: none;
     color: white;
@@ -99,11 +79,15 @@ const BodyWrapper = styled.div`
   justify-content: flex-start;
   flex-direction: column;
   height: 40vh;
-  width: 100%;
   border-top: 1px solid white;
   h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 5px;
+
     font-size: 1.5em;
-    padding: 2em;
+    max-width: 80vw;
   }
   ul {
     display: flex;
@@ -117,11 +101,10 @@ const TechWrapper = styled.div`
   justify-content: space-evenly;
   flex-direction: row;
   align-items: flex-end;
-  /* padding: 2em; */
   width: 100%;
   margin-bottom: 1em;
   svg {
-    font-size: 34px;
+    object-fit: contain;
   }
 `;
 

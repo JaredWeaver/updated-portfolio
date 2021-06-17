@@ -10,11 +10,8 @@ import Contact from './components/Contact';
 
 const App = () => {
   return (
-    // <Router>
-
     <>
       <GlobalStyles />
-      
         <Navbar />
         <Intro/>
         <Projects/>
@@ -22,8 +19,6 @@ const App = () => {
         {/* <Footer /> */}
 
     </>
-
-    // </Router>
   );
 };
 
