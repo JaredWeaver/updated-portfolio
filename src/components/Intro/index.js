@@ -6,68 +6,61 @@ import BackImage from '../../assets/walkaway.jpg';
 
 const TypewriteContainer = styled.div`
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   flex-direction: row;
   padding-top: 10%;
   font-size: 3em;
   padding-bottom: 0;
-  align-items: center;
-  object-fit: contain;
+  margin: 0 auto;
+  width: 100%;
+  /* object-fit: contain; */
   /* max-width: 1500px; */
 
   /* margin: 4px; */
 
-  @media screen and (max-width: 1200px) {
-  }
+  /* @media screen and (max-width: 1200px) {
+  } */
   @media screen and (max-width: 800px) {
     flex-direction: column;
+    font-size: 20px;
+    /* width: 100%; */
+    padding-top: 20%;
   }
-  @media screen and (max-width: 600px) {
+  /* @media screen and (max-width: 600px) {
     flex-direction: column;
   }
   @media screen and (max-width: 450px) {
     flex-direction: column;
-    font-size: 20px;
-    width: 100%;
-    padding-top: 20%;
+    */
     
 
-  }
+  /* } */
 `;
 
 const TopIntroContainer = styled.div`
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   flex-direction: row;
   padding-top: 5%;
-  font-size: 3em;
+  font-size: 74px;
   padding-bottom: 0;
   align-items: center;
+  margin: 0 auto;
+  max-width:95vw;
   /* margin: 4px; */
   @media screen and (max-width: 1200px) {
     justify-content: center;
     flex-direction: column;
-    font-size: 2rem;
-    margin: 0;
+    font-size: 40px;
+    margin: 0 auto;
   }
   @media screen and (max-width: 800px) {
-    justify-content: center;
-    flex-direction: column;
     font-size: 1.5rem;
-    /* margin: 0 auto; */
   }
   @media screen and (max-width: 600px) {
-    justify-content: center;
-    flex-direction: column;
     font-size: 1rem;
-    /* margin: 0 auto; */
   }
-  @media screen and (max-width: 450px) {
-    justify-content: center;
-    flex-direction: column;
-    font-size: 1rem;
-margin-left: 100px  }
 `;
 
 const IntroContainer = styled.div`
@@ -75,18 +68,11 @@ const IntroContainer = styled.div`
   justify-content: center;
   flex-direction: column;
   padding-top: 5%;
-  font-size: 3em;
+  font-size: 60px;
   padding-bottom: 0;
   align-items: center;
   text-align: center;
-  @media screen and (max-width: 1200px) {
-  }
-  @media screen and (max-width: 800px) {
-  }
-  @media screen and (max-width: 600px) {
-  }
-  @media screen and (max-width: 450px) {
-    
+  margin: 0 auto;
   }
 `;
 
@@ -99,11 +85,12 @@ const IntroPic = styled.img`
 const IntroBioContainer = styled.section`
   display: flex;
 
-  width: 66.6%;
+  width: 95%;
   background: transparent;
   border-radius: 5%;
+  margin: 20px auto;
   p {
-    font-size: 36px;
+    font-size: 40px;
     text-align: center;
     @media screen and (max-width: 1200px) {
       font-size: 32px;
@@ -117,16 +104,6 @@ const IntroBioContainer = styled.section`
     @media screen and (max-width: 450px) {
       font-size: 24px;
     }
-  }
-  @media screen and (max-width: 1200px) {
-
-  }
-  @media screen and (max-width: 800px) {
-  }
-  @media screen and (max-width: 600px) {
-  }
-  @media screen and (max-width: 450px) {
-    /* width: 100%; */
   }
 `;
 

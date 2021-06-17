@@ -9,41 +9,29 @@ export const GlobalStyles = createGlobalStyle`
 
   body {
     height:100%;
+    width: 100%;
     background-color: #090947;
     background: linear-gradient(0deg, #2f0909 0% , #393D47 94%) fixed no-repeat;
     font-family: 'Space Grotesk', sans-serif;
-    margin: 0;
-    padding: 0 20px;
+    margin: 0 auto;
+    padding: 0;
     color: white;
+    text-align: center;
     text-shadow:
    -1px -1px 0 #000,  
     1px -1px 0 #000,
     -1px 1px 0 #000,
     1px 1px 0 #000;
-    @media screen and (max-width: 1200px) {
 }
-@media screen and (max-width: 800px) {
-
-}
-@media screen and (max-width: 600px) {
-
-}
-@media screen and (max-width: 450px) {
-  display: flex;
-  justify-content: center;
-  flex: column;
-  margin: 0 auto;
-  /* width: 100%; */
-  padding: 0 20px;
-  margin-bottom: -150px;
-}
-    
-  }
 
   .Typewriter {
     display: flex;
     justify-content: center;
+    flex-flow:row wrap;
+    align-items: center;
     padding: 2px;
+    width: 100%;
+    margin: 0 auto;
     text-shadow:
    -1px -1px 0 #000,  
     1px -1px 0 #000,
@@ -57,6 +45,7 @@ export const GlobalStyles = createGlobalStyle`
       color: white;
     @media screen and (max-width: 450px) {
        font-size: 30px;
+       text-align: center;
       }
     }
 

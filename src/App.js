@@ -14,14 +14,13 @@ const App = () => {
 
     <>
       <GlobalStyles />
-      <div>
+      
         <Navbar />
         <Intro/>
         <Projects/>
         <Contact />
         {/* <Footer /> */}
 
-      </div>
     </>
 
     // </Router>
