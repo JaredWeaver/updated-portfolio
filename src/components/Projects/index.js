@@ -17,6 +17,7 @@ const ProjectsContainer = styled.div`
   display: flex;
   justify-content: center;
   flex-direction: row;
+  align-items: center;
   max-width: 95vw;
   margin: 0 auto;
   @media screen and (max-width: 800px) {
