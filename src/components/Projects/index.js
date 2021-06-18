@@ -44,6 +44,7 @@ const ProjectDiv = styled.div`
     rgba(0, 0, 0, 0.22) 0px 15px 12px;
     @media screen and (max-width: 450px) {
     flex-direction: column;
+    width: 95%;
     }
 `;
 
@@ -88,7 +89,7 @@ const BodyWrapper = styled.div`
     padding: 0 5px;
 
     font-size: 1.5em;
-    max-width: 80vw;
+    max-width: 100vw;
   }
   ul {
     display: flex;
