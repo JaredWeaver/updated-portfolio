@@ -23,6 +23,15 @@ export const GlobalStyles = createGlobalStyle`
     1px 1px 0 #000;
 }
 
+a{
+  text-decoration: none;
+}
+
+a:hover {
+  cursor: pointer;
+  color: lightgray;
+}
+
   .Typewriter {
     display: flex;
     justify-content: center;

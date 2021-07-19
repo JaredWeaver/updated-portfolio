@@ -92,7 +92,7 @@ const IntroBioContainer = styled.div`
 const Intro = () => {
   return (
     <>
-      <TypewriteContainer>
+      <TypewriteContainer id='top'>
         <TypeWriter
           onInit={(typewriter) => {
             typewriter
