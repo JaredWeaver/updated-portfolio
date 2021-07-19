@@ -20,7 +20,6 @@ const FooterContainer = styled.footer`
   `;
 
 const FootSection = styled.section`
-  padding: 1.25rem 1.875rem;
   display: flex;
   width: 100%;
   /* flex-wrap: wrap; */
@@ -38,9 +37,6 @@ const FootCol = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 1.25rem 1.875rem;
-  width: 100%;
-  /* min-width: 12.5rem; */
   ul {
     list-style-type: none;
   }

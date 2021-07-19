@@ -10,7 +10,7 @@ const TypewriteContainer = styled.div`
   align-items: center;
   flex-direction: row;
   padding-top: 10%;
-  font-size: 3em;
+  font-size: 4rem;
   padding-bottom: 0;
   margin: 0 auto;
   width: 100vw;
@@ -39,16 +39,13 @@ const TopIntroContainer = styled.div`
   @media screen and (max-width: 1200px) {
     justify-content: center;
     flex-direction: column;
-    font-size: 40px;
+    font-size: 3rem;
     margin: 0 auto;
   }
   @media screen and (max-width: 800px) {
     flex-direction: column;
-
-    font-size: 1.5rem;
   }
   @media screen and (max-width: 600px) {
-    font-size: 1rem;
     padding: 30px 50px;
   }
 `;
@@ -71,7 +68,6 @@ const IntroBioContainer = styled.div`
   justify-content: center;
   align-items: center;
   width: 85vw;
-  /* max-width: 40rem; */
   background: transparent;
   height: 100%;
   border-radius: 5%;
@@ -80,17 +76,9 @@ const IntroBioContainer = styled.div`
   
   p {
     font-size: 2rem;
-    text-align: left;
-    @media screen and (max-width: 1200px) {
-      font-size: 30px;
+    text-align: center;
     }
-    @media screen and (max-width: 800px) {
-      font-size: 28px;
-    }
-    @media screen and (max-width: 450px) {
-      font-size: 26px;
-    }
-  }
+  
 `;
 
 const Intro = () => {
