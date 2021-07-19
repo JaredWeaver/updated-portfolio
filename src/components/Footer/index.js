@@ -13,6 +13,7 @@ const FooterContainer = styled.footer`
   display: flex;
   justify-content: center;
   flex-direction: column;
+  width: 100%;
   height: auto;
   bottom: 0px;
   background: linear-gradient(to bottom, #2f0909 0%, #393D47 100%);
@@ -21,9 +22,11 @@ const FooterContainer = styled.footer`
 const FootSection = styled.section`
   padding: 1.25rem 1.875rem;
   display: flex;
+  width: 100%;
   /* flex-wrap: wrap; */
   @media only screen and (min-width: 29.8125rem /*477px*/) {
     justify-content: space-around;
+    width:100%;
     flex-wrap: wrap;
   }
   @media only screen and (min-width: 77.5rem /*1240px*/) {
@@ -36,7 +39,8 @@ const FootCol = styled.div`
   justify-content: center;
   align-items: center;
   padding: 1.25rem 1.875rem;
-  min-width: 12.5rem;
+  width: 100%;
+  /* min-width: 12.5rem; */
   ul {
     list-style-type: none;
   }

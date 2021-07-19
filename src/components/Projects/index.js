@@ -34,7 +34,8 @@ const ProjectDiv = styled.div`
   z-index: 1;
   margin: 0 5px;
   padding: 40px;
-  max-height: 500px;
+  height: 40rem;
+  max-height: 40rem;
   margin-top: 20px;
   width: 33.3%;
   max-width: 60vw;
@@ -53,8 +54,8 @@ const Header = styled.div`
   justify-content: space-evenly;
   align-items: center;
   font-size: 24px;
-  max-height:300px;
   width: 100%;
+  height: 20vh;
   border-bottom: 1px solid white;
   a {
     text-decoration: none;
@@ -80,7 +81,7 @@ const BodyWrapper = styled.div`
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
-  height: 40vh;
+  height: 100vh;
   border-top: 1px solid white;
   h2 {
     display: flex;
@@ -88,7 +89,7 @@ const BodyWrapper = styled.div`
     align-items: center;
     padding: 0 5px;
 
-    font-size: 1.5em;
+    font-size: 1.5rem;
     max-width: 100vw;
   }
   ul {
@@ -104,9 +105,10 @@ const TechWrapper = styled.div`
   flex-direction: row;
   align-items: flex-end;
   width: 100%;
-  margin-bottom: 1em;
+  margin-bottom: 1rem;
   svg {
     object-fit: contain;
+    font-size: 2rem;
   }
 `;
 

@@ -34,6 +34,7 @@ const TopIntroContainer = styled.div`
   align-items: center;
   margin: 0 auto;
   padding: 5% 50px;
+  /* width: 100%; */
   max-width: 95vw;
   @media screen and (max-width: 1200px) {
     justify-content: center;
@@ -57,7 +58,7 @@ const IntroPic = styled.img`
   height: 100%auto;
   margin: 0 auto;
   object-fit: contain;
-  width: 100%;
+  /* width: 100%; */
   max-width: 20rem;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
     rgba(0, 0, 0, 0.22) 0px 15px 12px;
@@ -68,12 +69,15 @@ const IntroPic = styled.img`
 const IntroBioContainer = styled.div`
   display: flex;
   justify-content: center;
+  align-items: center;
   width: 85vw;
-  max-width: 30rem;
+  /* max-width: 40rem; */
   background: transparent;
   height: 100%;
   border-radius: 5%;
   margin: 20px auto;
+  padding: 20px;
+  
   p {
     font-size: 2rem;
     text-align: left;
