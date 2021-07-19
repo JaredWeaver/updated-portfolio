@@ -53,9 +53,9 @@ const Header = styled.div`
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  font-size: 24px;
+  font-size: 2rem;
   width: 100%;
-  height: 20vh;
+  height: 30rem;
   border-bottom: 1px solid white;
   a {
     text-decoration: none;
@@ -80,6 +80,7 @@ const Screenshot = styled.img`
 const BodyWrapper = styled.div`
   display: flex;
   justify-content: flex-start;
+  align-items: center;
   flex-direction: column;
   height: 100vh;
   border-top: 1px solid white;
@@ -88,8 +89,10 @@ const BodyWrapper = styled.div`
     justify-content: center;
     align-items: center;
     padding: 0 5px;
+    height: fit-content;
+    /* margin-top: 2rem; */
 
-    font-size: 1.5rem;
+    font-size: 2rem;
     max-width: 100vw;
   }
   ul {
@@ -105,7 +108,8 @@ const TechWrapper = styled.div`
   flex-direction: row;
   align-items: flex-end;
   width: 100%;
-  margin-bottom: 1rem;
+  height: 100vh;
+  /* margin-bottom: 1rem; */
   svg {
     object-fit: contain;
     font-size: 2rem;
