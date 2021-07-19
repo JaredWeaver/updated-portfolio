@@ -8,8 +8,7 @@ export const GlobalStyles = createGlobalStyle`
 }
 
   body {
-    height:100%;
-    width: 100%;
+    min-height: 100vh;
     background-color: #090947;
     background: linear-gradient(0deg, #2f0909 0% , #393D47 94%) fixed no-repeat;
     font-family: 'Space Grotesk', sans-serif;

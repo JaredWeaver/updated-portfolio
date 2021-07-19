@@ -54,25 +54,28 @@ const TopIntroContainer = styled.div`
 
 const IntroPic = styled.img`
   border-radius: 2%;
-  height: auto;
+  height: 100%auto;
   margin: 0 auto;
   object-fit: contain;
   width: 100%;
-  max-width: 400px;
+  max-width: 20rem;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
   /* width: auto; */
   /* margin: 5px; */
 `;
 
 const IntroBioContainer = styled.div`
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   width: 85vw;
-  max-width: 400px;
+  max-width: 30rem;
   background: transparent;
+  height: 100%;
   border-radius: 5%;
   margin: 20px auto;
   p {
-    font-size: 34px;
+    font-size: 2rem;
     text-align: left;
     @media screen and (max-width: 1200px) {
       font-size: 30px;
@@ -94,7 +97,7 @@ const Intro = () => {
           onInit={(typewriter) => {
             typewriter
               .typeString(
-                "<strong>const jaredWeaver = 'Web Developer';</strong>"
+                "<strong>Hi, I'm Jared Weaver.</strong>"
               )
               .start();
           }}
@@ -105,9 +108,9 @@ const Intro = () => {
         <IntroPic src={FrontImage}></IntroPic>
         <IntroBioContainer>
           <p>
-            Seasoned Operations Manager turned Web Developer that is addicted to
+            Software Developer that is addicted to
             learning best practices and new technologies to craft innovative
-            user experiences.
+            user experiences. 
           </p>
         </IntroBioContainer>
 
