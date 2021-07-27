@@ -56,13 +56,13 @@ const FootLegalSection = styled.section`
     list-style-type: none;
     li {
       margin: 0.5rem;
-      font-size: 0.75rem;
+      font-size: 1rem;
     }
   }
 `;
 
 const HashLink = styled(Link)`
-font-size: 1.2rem;
+font-size: 1.8rem;
 `;
 
 const Footer = () => {
