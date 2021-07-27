@@ -49,7 +49,8 @@ const ProjectDiv = styled.div`
     flex-direction: column;
     justify-content: center;
     margin: 2rem auto;
-    /* width: 100%; */
+    width: 90%;
+    height:60%;
     }
 `;
 
@@ -86,8 +87,10 @@ const BodyWrapper = styled.div`
   justify-content: flex-start;
   align-items: center;
   flex-direction: column;
-  height: 100vh;
+  height:60vh;
+  max-height: 100vh;
   border-top: 1px solid white;
+  padding-top: 5rem;
   h2 {
     display: flex;
     justify-content: center;
@@ -96,7 +99,7 @@ const BodyWrapper = styled.div`
     height: fit-content;
     /* margin-top: 2rem; */
 
-    font-size: 2rem;
+    font-size: 1.67rem;
     max-width: 100vw;
   }
   ul {
@@ -113,7 +116,7 @@ const TechWrapper = styled.div`
   align-items: flex-end;
   width: 100%;
   height: 100vh;
-  /* margin-bottom: 1rem; */
+  margin-bottom: 1rem;
   svg {
     object-fit: contain;
     font-size: 2rem;

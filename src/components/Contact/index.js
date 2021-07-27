@@ -6,12 +6,11 @@ const ContactContainer = styled.div`
   justify-content: center;
   flex-flow: column wrap;
   width: 100%;
-  font-size: 40px;
+  font-size: 3rem;
   text-decoration: none;
-  margin: 10% auto;
+  margin: 0 auto;
+  
   text-align: center;
-    
-
   `;
   
 

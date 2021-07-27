@@ -13,17 +13,17 @@ const NavContainer = styled.nav`
   background-color: #383e42;
   top: 0;
   left: 0;
-  right: 0;
+  right:0;
   opacity: 0.97;
   width: 100%;
   position: fixed;
   z-index: 10000;
-  padding: 8px;
+  /* padding: 8px; */
 
   @media screen and (max-width: 450px) {
-    width: 100%; 
+    width: fit-content; 
     margin: 0 auto;
-    padding: 4px;
+    
   }
 `;
 
@@ -33,9 +33,9 @@ const NavListGroup = styled.ul`
   justify-content: center;
   align-items: center;
   list-style-type: none;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 `;
 
 const NavListItem = styled.li`

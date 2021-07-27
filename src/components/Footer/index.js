@@ -13,6 +13,7 @@ const FooterContainer = styled.footer`
   display: flex;
   justify-content: center;
   flex-direction: column;
+  margin: 0 auto;
   width: 100%;
   height: auto;
   bottom: 0px;
@@ -22,14 +23,15 @@ const FooterContainer = styled.footer`
 const FootSection = styled.section`
   display: flex;
   width: 100%;
+  justify-content: center;
   /* flex-wrap: wrap; */
   @media only screen and (min-width: 29.8125rem /*477px*/) {
-    justify-content: space-around;
+    justify-content: center;
     width:100%;
-    flex-wrap: wrap;
+    
   }
   @media only screen and (min-width: 77.5rem /*1240px*/) {
-    justify-content: space-evenly;
+    justify-content: center;
   }
 `;
 
@@ -60,7 +62,7 @@ const FootLegalSection = styled.section`
 `;
 
 const HashLink = styled(Link)`
-font-size: 2rem;
+font-size: 1.2rem;
 `;
 
 const Footer = () => {

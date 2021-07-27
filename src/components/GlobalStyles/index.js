@@ -50,10 +50,10 @@ a:hover {
   }
   .email{
       text-decoration: none;
-      font-size: 40px;
+      font-size: 1.5rem;
       color: white;
     @media screen and (max-width: 450px) {
-       font-size: 30px;
+     
        text-align: center;
       }
     }
