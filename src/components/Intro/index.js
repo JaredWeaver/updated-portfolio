@@ -33,20 +33,14 @@ const TopIntroContainer = styled.div`
   padding-bottom: 0;
   align-items: center;
   margin: 0 auto;
-  padding: 5% 50px;
-  /* width: 100%; */
   max-width: 95vw;
   @media screen and (max-width: 1200px) {
     justify-content: center;
     flex-direction: column;
     font-size: 3rem;
-    margin: 0 auto;
-  }
-  @media screen and (max-width: 800px) {
-    flex-direction: column;
   }
   @media screen and (max-width: 600px) {
-    padding: 30px 50px;
+    flex-direction: column;
   }
 `;
 
@@ -55,12 +49,9 @@ const IntroPic = styled.img`
   height: 100%auto;
   margin: 0 auto;
   object-fit: contain;
-  /* width: 100%; */
   max-width: 20rem;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
     rgba(0, 0, 0, 0.22) 0px 15px 12px;
-  /* width: auto; */
-  /* margin: 5px; */
 `;
 
 const IntroBioContainer = styled.div`
@@ -100,9 +91,9 @@ const Intro = () => {
         <IntroPic src={FrontImage}></IntroPic>
         <IntroBioContainer>
           <p>
-            Software Developer that is addicted to
+            I am a Software Developer that is addicted to
             learning best practices and new technologies to craft innovative
-            user experiences. 
+            user experiences. Seeking a full time opportunity to integrate my 10+ years worth of professional management experience into a technical role.
           </p>
         </IntroBioContainer>
 

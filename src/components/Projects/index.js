@@ -18,7 +18,7 @@ const ProjectsContainer = styled.div`
   justify-content: center;
   flex-direction: row;
   align-items: center;
-  max-width: 95vw;
+  max-width: 100%;
   margin: 0 auto;
   @media screen and (max-width: 800px) {
     flex-direction: column;
@@ -32,20 +32,22 @@ const ProjectDiv = styled.div`
   border: 3px solid white;
   border-radius: 5%;
   z-index: 1;
-  margin: 0 5px;
-  padding: 40px;
-  height: 40rem;
+  margin: 0 5rem;
+  padding: 0;
+   height: 40rem;
   max-height: 40rem;
   margin-top: 20px;
   width: 33.3%;
-  max-width: 60vw;
+  max-width:75vw;
   background: linear-gradient(0deg, #393d47 0%, #2f0909 94%) fixed no-repeat;
   background-color: #2f0909;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
     rgba(0, 0, 0, 0.22) 0px 15px 12px;
     @media screen and (max-width: 450px) {
     flex-direction: column;
-    width: 95%;
+    justify-content: center;
+    margin: 2rem auto;
+    width: 100%;
     }
 `;
 

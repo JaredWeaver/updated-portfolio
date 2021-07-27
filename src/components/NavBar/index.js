@@ -19,22 +19,11 @@ const NavContainer = styled.nav`
   position: fixed;
   z-index: 10000;
   padding: 8px;
-  @media screen and (max-width: 1200px) {
-    /* width: 100%; */
-    /* padding: 8px; */
-  }
-  @media screen and (max-width: 800px) {
-    /* width: 100%; */
-    /* padding: 6px; */
-  }
-  @media screen and (max-width: 600px) {
-    /* width: 100%; */
-    /* padding: 4px; */
-  }
+
   @media screen and (max-width: 450px) {
-    /* width: 100%; */
-    /* padding: 5px; */
-    /* margin: 0; */
+    width: 100%; 
+    margin: 0 auto;
+    padding: 4px;
   }
 `;
 

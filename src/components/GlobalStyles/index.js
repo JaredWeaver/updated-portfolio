@@ -49,7 +49,6 @@ a:hover {
     1px 1px 0 #000;
   }
   .email{
-    
       text-decoration: none;
       font-size: 40px;
       color: white;
