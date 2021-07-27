@@ -20,6 +20,7 @@ const ProjectsContainer = styled.div`
   align-items: center;
   max-width: 100%;
   margin: 0 auto;
+  padding-top: 10rem;
   @media screen and (max-width: 800px) {
     flex-direction: column;
   }
@@ -28,17 +29,18 @@ const ProjectsContainer = styled.div`
 const ProjectDiv = styled.div`
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
   border: 3px solid white;
   border-radius: 5%;
   z-index: 1;
   margin: 0 5rem;
   padding: 0;
-   height: 40rem;
-  max-height: 40rem;
+   height: 100%;
+  max-height: 50rem;
+  width: 60%;
   margin-top: 20px;
-  width: 33.3%;
-  max-width:75vw;
+ 
   background: linear-gradient(0deg, #393d47 0%, #2f0909 94%) fixed no-repeat;
   background-color: #2f0909;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
@@ -47,7 +49,7 @@ const ProjectDiv = styled.div`
     flex-direction: column;
     justify-content: center;
     margin: 2rem auto;
-    width: 100%;
+    /* width: 100%; */
     }
 `;
 
