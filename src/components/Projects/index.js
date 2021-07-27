@@ -48,6 +48,7 @@ const ProjectDiv = styled.div`
   @media screen and (max-width: 450px) {
     flex-direction: column;
     justify-content: center;
+    width: 90%;
     /* margin: 2rem auto; */
     /* width: 90%; */
     /* height:60%; */
