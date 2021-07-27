@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import mentorImg from '../../assets/mentorme.png';
 import subtrkr from '../../assets/subtrkr.png';
-import jaredazon from '../../assets/jaredazon.png'
+import jaredazon from '../../assets/jaredazon.png';
 import { SiReact } from 'react-icons/si';
 import { SiMongodb } from 'react-icons/si';
 import { SiNodeDotJs } from 'react-icons/si';
@@ -18,9 +18,10 @@ const ProjectsContainer = styled.div`
   justify-content: center;
   flex-direction: row;
   align-items: center;
-  max-width: 100%;
+  width: 100%;
   margin: 0 auto;
   padding-top: 10rem;
+  padding-bottom: 10rem;
   @media screen and (max-width: 800px) {
     flex-direction: column;
   }
@@ -34,24 +35,23 @@ const ProjectDiv = styled.div`
   border: 3px solid white;
   border-radius: 5%;
   z-index: 1;
-  margin: 0 5rem;
+  margin: 0 2rem;
   padding: 0;
-   height: 100%;
-  max-height: 50rem;
-  width: 60%;
+  height: 40rem;
+
   margin-top: 20px;
- 
+  width: 70rem;
   background: linear-gradient(0deg, #393d47 0%, #2f0909 94%) fixed no-repeat;
   background-color: #2f0909;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
     rgba(0, 0, 0, 0.22) 0px 15px 12px;
-    @media screen and (max-width: 450px) {
+  @media screen and (max-width: 450px) {
     flex-direction: column;
     justify-content: center;
-    margin: 2rem auto;
-    width: 90%;
-    height:60%;
-    }
+    /* margin: 2rem auto; */
+    /* width: 90%; */
+    /* height:60%; */
+  }
 `;
 
 const Header = styled.div`
@@ -60,7 +60,7 @@ const Header = styled.div`
   align-items: center;
   font-size: 2rem;
   width: 100%;
-  height: 30rem;
+  height: 20rem;
   border-bottom: 1px solid white;
   a {
     text-decoration: none;
@@ -87,7 +87,7 @@ const BodyWrapper = styled.div`
   justify-content: flex-start;
   align-items: center;
   flex-direction: column;
-  height:60vh;
+  height: 60vh;
   max-height: 100vh;
   border-top: 1px solid white;
   padding-top: 5rem;
@@ -127,7 +127,7 @@ const Projects = () => {
   return (
     <>
       <ProjectsContainer>
-      <ProjectDiv>
+        <ProjectDiv>
           <Header>
             Amazon Clone{' '}
             <a
@@ -141,7 +141,8 @@ const Projects = () => {
           <Screenshot src={jaredazon} />
           <BodyWrapper>
             <h2>
-              An Amazon clone with login and add to cart features built with react hooks. 
+              An Amazon clone with login and add to cart features built with
+              react hooks.
             </h2>
           </BodyWrapper>
           <TechWrapper>
