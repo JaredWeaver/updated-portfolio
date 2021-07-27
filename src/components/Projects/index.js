@@ -59,14 +59,14 @@ const Header = styled.div`
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  font-size: 2rem;
+  font-size: 1.4rem;
   width: 100%;
-  height: 20rem;
+  height: 25rem;
   border-bottom: 1px solid white;
   a {
     text-decoration: none;
     color: white;
-    font-size: 16px;
+    font-size: .5rem;
     object-fit: contain;
   }
   a:hover {
